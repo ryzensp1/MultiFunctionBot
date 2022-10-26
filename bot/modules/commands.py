@@ -69,10 +69,10 @@ def telegraph_paste(res):
 async def start(bot, update):
     uname = update.from_user.mention
     uid = f"<code>{update.from_user.id}</code>"
-    msg = f"Hello {uname} (ID: {uid}),\n<b><i>I am the Multi Function Bot</i></b>\n\n<i>Use /help to get more Information about the Bot.</i>\n\n"
+    msg = f"✨ Hello {uname} (ID: {uid}),\n<b><i>I am the Multi Function Bot</i></b>\n\n<i>Use /help to get more Information about the Bot.</i>\n\n"
     msg += f"<b>Pyrogram</b> Version : <i>v{__version__}(Layer {layer})</i>\n\n"
-    msg += "<b><i>Made with Love by Miss Emily\n(https://github.com/missemily2022)</i></b>\n\n"
-    msg += "<b>Important:<i> Bot does not support Reply to Link Support. Only command followed by link is supported.</i></b>"
+    msg += "<b><i>♥️ Made with Love by Crimz Bots\n(https://t.me/Crimz_Bots)</i></b>\n\n"
+    msg += "<b>📛 Important:<i> Bot does not support Reply to Link Support. Only command followed by link is supported.</i></b>"
     await update.reply_text(
         text=msg,
         disable_web_page_preview=True,
